@@ -2,9 +2,7 @@
   Ignite Call
 </h1> 
 
-<h2 align="center">Link to site online: <a href="" target="_blank">Ignite Call</a> </h2>
-
-<h2 align="center">
+<h2 align="center">Link to site online: <a href="https://ignite-call-diaspd.vercel.app/" target="_blank">Ignite Call</a> </h2>
 
 <div align="center">
   <b>
