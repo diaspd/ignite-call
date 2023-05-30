@@ -41,6 +41,8 @@ $ npm install
 $ npm run dev
 ```
 
+</br>
+
 ## Setting the app
 To connect to Stripe you will need to create a `.env.local` file and add 
 
