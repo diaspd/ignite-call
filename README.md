@@ -41,6 +41,22 @@ $ npm install
 $ npm run dev
 ```
 
+## Setting the app
+To connect to Stripe you will need to create a `.env.local` file and add 
+
+```
+# your database URL using for example docker
+- DATABASE_URL=https://localhost:3306
+
+# and 2 keys for Google:
+- GOOGLE_CLIENT_ID
+- GOOGLE_CLIENT_SECRET
+
+# and a random number for 
+- NEXTAUTH_SECRET
+```
+
+
 The app will be available on `http://localhost:3000`
 
 <br></br>
