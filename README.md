@@ -76,6 +76,7 @@ This project was developed with the following technologies:
 - Next 
 - Stitches
 - Oath
+- Prisma
 </b>
 
 </br>
