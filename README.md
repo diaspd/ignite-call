@@ -82,7 +82,7 @@ This project was developed with the following technologies:
 </br>
 
 ## 📄 Project
-💰 Using Nextjs, Oauth connection with Google,back end with prisma and deploy on Vercel and Planetscale.
+💰 Using Nextjs, Oauth connection with Google,cookies, dates, back end with prisma and deploy on Vercel and Planetscale.
 
 <br></br>
 
