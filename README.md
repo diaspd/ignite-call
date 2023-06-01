@@ -60,8 +60,8 @@ To connect to Stripe you will need to create a `.env.local` file and add
 
 ## Running the Docker
 ```
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 mysql:latest
-docker start mysql
+$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 mysql:latest
+$ docker start mysql
 ```
 
 The app will be available on `http://localhost:3000`
