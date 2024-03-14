@@ -62,7 +62,7 @@ To connect to Google and Database you will need to create a `.env.local` file an
 
 ## Running the Docker
 ```
-$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 mysql:latest
+$ docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 $ docker start mysql
 ```
 
