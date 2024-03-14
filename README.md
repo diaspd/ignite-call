@@ -45,11 +45,12 @@ $ npm run dev
 </br>
 
 ## Setting the app
-To connect to Stripe you will need to create a `.env.local` file and add 
+To connect to Google and Database you will need to create a `.env.local` file and add 
 
 ```
 # your database URL using for example docker
-- DATABASE_URL=mysql://root:docker@localhost:3306/ignitecall
+- DATABASE_URL="postgresql://postgres:docker@localhost:5432/ignitecall"
+- DATABASE_DIRECT_URL="postgresql://postgres:docker@localhost:5432/ignitecall"
 
 # and 2 keys for Google:
 - GOOGLE_CLIENT_ID=
