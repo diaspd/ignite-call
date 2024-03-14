@@ -41,15 +41,18 @@ export function CalendarStep({ onSelectedDateTime }: CalendarStepProps) {
   const { data: availability } = useQuery<Availability>(
     ['availability', selectedDateWithoutTime],
     async () => {
-      const respose = await api.get(`/users/${username}/availability`, {
+      const response = await api.get(`/users/${username}/availability`, {
         params: {
           date: selectedDateWithoutTime,
+          timezoneOffset: selectedDate ? selectedDate.getTimezoneOffset() : 0,
         },
       })
 
-      return respose.data
+      return response.data
     },
-    { enabled: !!selectedDate },
+    {
+      enabled: !!selectedDate,
+    },
   )
 
   function handleSelectTime(hour: number) {
