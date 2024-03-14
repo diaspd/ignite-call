@@ -1,0 +1,42 @@
+{
+  "name": "ignite-call",
+  "version": "0.1.0",
+  "author": "pedro_dias",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.1.0",
+    "@ignite-ui/react": "^2.2.4",
+    "@prisma/client": "^4.14.0",
+    "@tanstack/react-query": "^4.29.7",
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "axios": "^1.4.0",
+    "dayjs": "^1.11.7",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "googleapis": "^118.0.0",
+    "next": "13.4.1",
+    "next-auth": "^4.22.1",
+    "next-seo": "^6.0.0",
+    "nookies": "^2.5.2",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.43.9",
+    "typescript": "5.0.4",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "@types/cookie": "^0.5.1",
+    "prisma": "^4.14.0"
+  }
+}
