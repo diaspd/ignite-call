@@ -4,8 +4,6 @@
 
 <h2 align="center">Link to site online: <a href="https://ignite-call-diaspd.vercel.app/" target="_blank">Ignite Call</a> </h2>
 
-<h2 align="center">
-
 <div align="center">
   <b>
     <a href="#-Technologies"><b>Technologies</b></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
